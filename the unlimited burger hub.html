@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>The Unlimited Burger Hub</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</header>
+<body>
+    <header>
+        <div class="navbar">
+        <img src="d:\poojaa\logo.jpg" alt="logo">
+        </div>
+        <div class="content nav"></div>
+        <nav>
+            <h1 class="logo"> </h1>
+            <ul>
+            
+                    <li><a href="#menu">menu</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contact</a></li>
+                
+            </ul>
+        </nav>
+        </header>
+
+
+        <section class="hero">
+            <h2>The Unlimited Burger Hub</h2>
+            <h2>Unlimited Happiness</h2>
+            <p>Get You hands on the best burger in town!</p>
+            <a href="" class="btn">Order Now</a>
+            
+        </section>
+
+
+
+        <section id="menu" class="menu">
+            <h2>Our Menu</h2>
+            <div class="burger-list">
+                <div class="burger">
+                    <img src="d:\poojaa\cheese burger.jpg" alt="cheese burger">
+
+                    <h3>Cheese Burger</h3>
+                    <p>Rs.99</p>
+                </div>
+            <div class="burger">
+                <img src="d:\poojaa\Mushroom Burger.jpg"alt="mushroom burger">
+                <h3>Mushroom Burger</h3>
+                <p>Rs.89</p>
+            </div>
+            <div class="burger">
+                <img src="d:\poojaa\onion burger.jpg" alt="Onion Burger">
+                <h3>Onion Burger</h3>
+                <p>Rs.75</p>
+                </div>
+                <div class="burger">
+                    <img src="d:\poojaa\Veggie Burger.jpg" alt="Veggie Burger">
+                    <h3>Veggie Burger</h3>
+                    <p>Rs.99</p>
+                    </div>
+                    <div class="burger">
+                        <img src="d:\poojaa\green chile cheeseburger.jpg" alt="Green Chile Cheeseburger ">
+                        <h3>Green Chile Cheeseburger</h3>
+                        <p>Rs.99</p>
+                        </div>
+                        <div class="burger">
+                            <img src="d:\poojaa\pimento cheeseburger.jpg" alt="Pimento cheese Burger">
+                            <h3>Pimento Cheese Burger</h3>
+                            <p>Rs.89</p>
+                            </div>
+                            <div class="burger">
+                                <img src="d:\poojaa\butter burger.jpg" alt="Butter burger">
+                                <h3>Butter Burger</h3>
+                                <p>Rs.50</p>
+                                </div>
+                                <div class="burger">
+                                    <img src="d:\poojaa\flsh sandwich.jpg" alt="Flsh sandwich">
+                                    <h3>Flsh sandwich</h3>
+                                    <p>Rs.60</p>
+                                    </div> 
+                                    <div class="burger">
+                                        <img src="d:\poojaa\pizzaburger.jpg" alt="Pizza Burger">
+                                        <h3>Pizza Burger</h3>
+                                        <p>Rs.70</p>
+                                        </div>
+                                        <div class="burger">
+                                            <img src="d:\poojaa\aloo tiki burger.jpg" alt="Aloo Tikki Burger">
+                                            <h3>Aloo Tikki Burger</h3>
+                                            <p>Rs.80</p>
+                                            </div>
+                                            <div class="burger">
+                                                <img src="d:\poojaa\plain beef burger.jpg" alt=" Plain Beef burger">
+                                                <h3> Plain Beef Burger</h3>
+                                                <p>Rs.90</p>
+                                                </div> 
+                                                <div class="burger">
+                                                    <img src="d:\poojaa\BBQ Burger.jpg" alt="BBQ Burger">
+                                                    <h3>BBQ Burger</h3>
+                                                    <p>Rs.80</p>
+                                                    </div> 
+                                                    <div class="burger">
+                                                        <img src="d:\poojaa\Buffalo Burger.jpg" alt="Buffalo Burger">
+                                                        <h3> Buffalo Burger</h3>
+                                                        <p>Rs.90</p>
+                                                        </div>
+                                                            <div class="burger">
+                                                            <img src="d:\poojaa\Black Bean Burger.jpg" alt="Black Bean Burger">
+                                                            <h3>Black Bean Burger</h3>
+                                                            <p>Rs.70</p>
+                                                            </div> 
+                                                            <div class="burger">
+                                                                <img src="d:\poojaa\Jucy Lucy.jpg" alt="Jucy Lucy">
+                                                                <h3>Jucy Lucy</h3>
+                                                                <p>Rs.60</p>
+                                                                </div> 
+                                                                <div class="burger">
+                                                                    <img src="d:\poojaa\KiWiburger.jpg" alt="kiwiburger">
+                                                                    <h3>Kiwiburger</h3>
+                                                                    <p>Rs.80</p>
+                                                                    </div>
+                                                                     <div class="burger">
+                                                                        <img src="d:\poojaa\Lamb Burger.jpg" alt="Lamb Burger">
+                                                                        <h3>Lamb Burger</h3>
+                                                                        <p>Rs.90</p>
+                                                                        </div>
+            </div>
+            </section>
+            <section id="about" class="about">
+                <h2>About Us</h2>
+                <p>At Burger Hub,We serve joy between duns! Fresh ingredients,uniqe flavors,and unlimited love.</p>
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>Contact Us</h2>
+                <p>Email: contact@burgerhub.com</p>
+                <p>phone: 9897725644</p>
+            </section>
+
+            <footer>
+                <p>&copy;2025 The Unlimeted Burger Hub.All rights reserved.</p>
+            </footer>
+    </header>
+    <script>
+        const burgerImages=document.querySelectorAll(".burger img");
+        const toggleImages=document.querySelectorAll(".burger-toggle img");
+        let currentIndex=0;
+
+        toggleImages[currentIndex].classList.add("active");
+
+        burgerImages.forEach((img, index)=> {
+            img.addEventListener("click", () => {
+                toggleImages.forEach(toggleImages => toggleImages.classList.remove("active"));
+            } );
+        });
+
+
+        // Generate random stars
+        function createStars(){
+            const starsContainer=document.createElement("div");
+            star.classname="star";
+            star.style.left="${math.random()=windowidth}px";
+            star.style.top="${math.random()=windowHeight}px";
+            starsContainer.appendChild(star);
+        }
+    
+
+    //call the createStars function when the page loads
+    window.addEventListener("load", createStars);
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+                    

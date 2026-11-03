@@ -1,0 +1,134 @@
+/*Reset Some style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Segoe UI', sans-serif;
+   line-height: 1.6;
+   background:#fffbe6;
+   color: #333;
+}
+
+header{
+  background:#ff9900;
+  padding: 1rem;
+}
+
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+nav.logo{
+    font-size: 1.5rem;
+ }
+
+
+.navbar img{
+   width: 60px;
+   height: 60px;
+   margin-right: 20px;
+ }
+
+nav ul{   
+   list-style: none;  
+    display: flex;
+    gap: 1rem;
+ }
+ 
+ 
+nav ul li{
+   display: flex;
+ }
+
+
+nav ul li a{
+    text-decoration:none;
+   
+    color: black;
+    font-weight:bold;
+ }
+
+
+
+ .hero{
+    text-align:center;
+    padding: 4rem 2rem;
+    background: no-repeat center center/cover;
+    color:black;
+ }
+
+
+ .hero2{
+    font-size: 2.5rem;
+ }
+
+
+ .hero button{
+    padding: 0.8rem 2rem;
+    background:white;
+    border: none;
+    color:black;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+ }
+
+ .menu,.about,.contact{
+    padding: 2rem;
+    text-align:center;
+ }
+
+ .burger-list{
+    display: flex;
+    justify-content:center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+ }
+
+
+
+ .burger{
+    background:white;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ }
+
+
+ .burger img{
+    width: 100%;
+    border-radius: 8px;
+ }
+
+
+ footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+ }
+ .btn {
+   color:black;
+   border: 2px solid;
+   position: relative;
+   top: 3rem;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 14px;
+   padding-bottom: 14px;
+   border-radius: 6px;
+   transition: all 0.5s ease;
+   margin-right: 10px;
+   animation: fadeInUp 1s ease-in-out 0.5s backwards;
+   text-decoration: none;
+}
+
